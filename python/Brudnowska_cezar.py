@@ -10,9 +10,8 @@
 def szyfruj(tekst, klucz):
     szyfrogram = ""
     for i in range(len(tekst)):
-        #if spacja:
-            #szyfrogram += " "
-            #continue
+        if ' ':
+            szyfrogram =+ " "
         if ord(tekst[i]) + klucz > 122:
             szyfrogram += chr(ord(tekst[i]) + klucz - 26)
         else:
