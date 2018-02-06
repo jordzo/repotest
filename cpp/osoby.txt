@@ -1,0 +1,3 @@
+jan,kowalski,4
+maria,nowak,5
+ewa,mewa,40
