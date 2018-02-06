@@ -1,12 +1,12 @@
-# ignoruj wszystkie w podkatalogu cpp
-cpp/*
-# ale nie źródłowe
-!cpp/*.c
-!cpp/*.cpp
-!cpp/*.cxx
-!cpp/Makefile
-!cpp/kl*
+*.o
+*.out
+*.exe
+*.lck
+.~*
 
+__pycache__/
+*.py[cod]
+venv 
+pve
 
-
-# wzorce dla Pythona
+.DS_Store
